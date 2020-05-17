@@ -1,0 +1,326 @@
+Class documentation
+<---- javadoc command: ---->
+C:\Program Files\BlueJ\jdk\bin\javadoc.exe
+-author
+-version
+-nodeprecated
+-package
+-Xdoclint:none
+-noindex
+-notree
+-nohelp
+-nonavbar
+-source
+11
+-classpath
+C:\Program Files\BlueJ\lib\bluejcore.jar;C:\Program Files\BlueJ\lib\junit-4.11.jar;C:\Program Files\BlueJ\lib\hamcrest-core-1.3.jar;C:\Program Files\BlueJ\lib\lang-stride.jar;C:\Program Files\BlueJ\lib\javafx\lib\javafx.base.jar;C:\Program Files\BlueJ\lib\javafx\lib\javafx.controls.jar;C:\Program Files\BlueJ\lib\javafx\lib\javafx.fxml.jar;C:\Program Files\BlueJ\lib\javafx\lib\javafx.graphics.jar;C:\Program Files\BlueJ\lib\javafx\lib\javafx.media.jar;C:\Program Files\BlueJ\lib\javafx\lib\javafx.properties.jar;C:\Program Files\BlueJ\lib\javafx\lib\javafx.swing.jar;C:\Program Files\BlueJ\lib\javafx\lib\javafx.web.jar;C:\Users\G\Desktop\BlueJ Projects\AdventureGame
+-d
+C:\Users\G\Desktop\BlueJ Projects\AdventureGame\doc
+-encoding
+UTF-8
+-charset
+UTF-8
+C:\Users\G\Desktop\BlueJ Projects\AdventureGame\Game.java
+<---- end of javadoc command ---->
+Loading source file C:\Users\G\Desktop\BlueJ Projects\AdventureGame\Game.java...
+C:\Users\G\Desktop\BlueJ Projects\AdventureGame\Game.java:137: error: 'else' without 'if'
+                else if(shopChoice.equals("2")){
+                ^
+C:\Users\G\Desktop\BlueJ Projects\AdventureGame\Game.java:199: error: class, interface, or enum expected
+public void menuMsg() {
+       ^
+C:\Users\G\Desktop\BlueJ Projects\AdventureGame\Game.java:201: error: class, interface, or enum expected
+printHeader("The Tower",15,15);
+^
+C:\Users\G\Desktop\BlueJ Projects\AdventureGame\Game.java:202: error: class, interface, or enum expected
+printLine(15);
+^
+C:\Users\G\Desktop\BlueJ Projects\AdventureGame\Game.java:203: error: class, interface, or enum expected
+printHeader("How to play:",40, 40);
+^
+C:\Users\G\Desktop\BlueJ Projects\AdventureGame\Game.java:204: error: class, interface, or enum expected
+System.out.println("10 floors full of enemies.");
+^
+C:\Users\G\Desktop\BlueJ Projects\AdventureGame\Game.java:205: error: class, interface, or enum expected
+System.out.println("Defeat all enemies to move to the next floor.");
+^
+C:\Users\G\Desktop\BlueJ Projects\AdventureGame\Game.java:206: error: class, interface, or enum expected
+System.out.println("At the end of each floor is a shop where you can purchase potions and weapons.");
+^
+C:\Users\G\Desktop\BlueJ Projects\AdventureGame\Game.java:207: error: class, interface, or enum expected
+System.out.println("Only one attack potion can be used per floor.");
+^
+C:\Users\G\Desktop\BlueJ Projects\AdventureGame\Game.java:208: error: class, interface, or enum expected
+printHeader("Move with w, a, s, d", 0, 40);
+^
+C:\Users\G\Desktop\BlueJ Projects\AdventureGame\Game.java:209: error: class, interface, or enum expected
+}
+^
+C:\Users\G\Desktop\BlueJ Projects\AdventureGame\Game.java:212: error: class, interface, or enum expected
+public void printPlayerStats() {
+       ^
+C:\Users\G\Desktop\BlueJ Projects\AdventureGame\Game.java:214: error: class, interface, or enum expected
+printHeader("HP: " + player.getCurrentHp() + "/" + player.getMaxHp()
+^
+C:\Users\G\Desktop\BlueJ Projects\AdventureGame\Game.java:217: error: class, interface, or enum expected
+System.out.println("Inventory: " + (player.getBagCapacity() - player.getBagSpace()) + "/" + player.getBagCapacity() 
+^
+C:\Users\G\Desktop\BlueJ Projects\AdventureGame\Game.java:220: error: class, interface, or enum expected
+ArrayList<Item> bag = player.getBag();
+^
+C:\Users\G\Desktop\BlueJ Projects\AdventureGame\Game.java:221: error: class, interface, or enum expected
+for (int i = 0; i < bag.size(); i++) {
+^
+C:\Users\G\Desktop\BlueJ Projects\AdventureGame\Game.java:221: error: class, interface, or enum expected
+for (int i = 0; i < bag.size(); i++) {
+                ^
+C:\Users\G\Desktop\BlueJ Projects\AdventureGame\Game.java:221: error: class, interface, or enum expected
+for (int i = 0; i < bag.size(); i++) {
+                                ^
+C:\Users\G\Desktop\BlueJ Projects\AdventureGame\Game.java:223: error: class, interface, or enum expected
+}
+^
+C:\Users\G\Desktop\BlueJ Projects\AdventureGame\Game.java:225: error: class, interface, or enum expected
+}
+^
+C:\Users\G\Desktop\BlueJ Projects\AdventureGame\Game.java:228: error: class, interface, or enum expected
+public void printLineBreak(int n) {
+       ^
+C:\Users\G\Desktop\BlueJ Projects\AdventureGame\Game.java:229: error: class, interface, or enum expected
+for (int i = 0; i < n; i++) {
+                ^
+C:\Users\G\Desktop\BlueJ Projects\AdventureGame\Game.java:229: error: class, interface, or enum expected
+for (int i = 0; i < n; i++) {
+                       ^
+C:\Users\G\Desktop\BlueJ Projects\AdventureGame\Game.java:231: error: class, interface, or enum expected
+}
+^
+C:\Users\G\Desktop\BlueJ Projects\AdventureGame\Game.java:235: error: class, interface, or enum expected
+public void printLine(int n) {
+       ^
+C:\Users\G\Desktop\BlueJ Projects\AdventureGame\Game.java:236: error: class, interface, or enum expected
+for (int i = 0; i < n; i++) {
+                ^
+C:\Users\G\Desktop\BlueJ Projects\AdventureGame\Game.java:236: error: class, interface, or enum expected
+for (int i = 0; i < n; i++) {
+                       ^
+C:\Users\G\Desktop\BlueJ Projects\AdventureGame\Game.java:238: error: class, interface, or enum expected
+}
+^
+C:\Users\G\Desktop\BlueJ Projects\AdventureGame\Game.java:240: error: class, interface, or enum expected
+}
+^
+C:\Users\G\Desktop\BlueJ Projects\AdventureGame\Game.java:243: error: class, interface, or enum expected
+public void printHeader(String message, int t, int b) {
+       ^
+C:\Users\G\Desktop\BlueJ Projects\AdventureGame\Game.java:246: error: class, interface, or enum expected
+}
+^
+C:\Users\G\Desktop\BlueJ Projects\AdventureGame\Game.java:249: error: class, interface, or enum expected
+if (b > 0) {
+^
+C:\Users\G\Desktop\BlueJ Projects\AdventureGame\Game.java:251: error: class, interface, or enum expected
+}
+^
+C:\Users\G\Desktop\BlueJ Projects\AdventureGame\Game.java:255: error: class, interface, or enum expected
+public String printSpace(int n){
+       ^
+C:\Users\G\Desktop\BlueJ Projects\AdventureGame\Game.java:258: error: class, interface, or enum expected
+for(int i = 0; i < n; i++){
+^
+C:\Users\G\Desktop\BlueJ Projects\AdventureGame\Game.java:258: error: class, interface, or enum expected
+for(int i = 0; i < n; i++){
+               ^
+C:\Users\G\Desktop\BlueJ Projects\AdventureGame\Game.java:258: error: class, interface, or enum expected
+for(int i = 0; i < n; i++){
+                      ^
+C:\Users\G\Desktop\BlueJ Projects\AdventureGame\Game.java:260: error: class, interface, or enum expected
+}
+^
+C:\Users\G\Desktop\BlueJ Projects\AdventureGame\Game.java:262: error: class, interface, or enum expected
+}
+^
+C:\Users\G\Desktop\BlueJ Projects\AdventureGame\Game.java:265: error: class, interface, or enum expected
+public void printShop(Shop s, ArrayList<Item> i){
+       ^
+C:\Users\G\Desktop\BlueJ Projects\AdventureGame\Game.java:267: error: class, interface, or enum expected
+printHeader("Shop",30, 75);
+^
+C:\Users\G\Desktop\BlueJ Projects\AdventureGame\Game.java:268: error: class, interface, or enum expected
+for (int k = 0; k < i.size(); k++) {
+^
+C:\Users\G\Desktop\BlueJ Projects\AdventureGame\Game.java:268: error: class, interface, or enum expected
+for (int k = 0; k < i.size(); k++) {
+                ^
+C:\Users\G\Desktop\BlueJ Projects\AdventureGame\Game.java:268: error: class, interface, or enum expected
+for (int k = 0; k < i.size(); k++) {
+                              ^
+C:\Users\G\Desktop\BlueJ Projects\AdventureGame\Game.java:270: error: class, interface, or enum expected
+System.out.println(shopItem + printSpace(65 - shopItem.length()) +"Price: " + i.get(k).getPrice() +" gold");
+^
+C:\Users\G\Desktop\BlueJ Projects\AdventureGame\Game.java:271: error: class, interface, or enum expected
+}
+^
+C:\Users\G\Desktop\BlueJ Projects\AdventureGame\Game.java:274: error: class, interface, or enum expected
+}
+^
+C:\Users\G\Desktop\BlueJ Projects\AdventureGame\Game.java:276: error: class, interface, or enum expected
+public String inputCommand() {
+       ^
+C:\Users\G\Desktop\BlueJ Projects\AdventureGame\Game.java:279: error: class, interface, or enum expected
+while (!c.equals("w") && !c.equals("a")
+^
+C:\Users\G\Desktop\BlueJ Projects\AdventureGame\Game.java:282: error: class, interface, or enum expected
+c = s.nextLine();
+^
+C:\Users\G\Desktop\BlueJ Projects\AdventureGame\Game.java:283: error: class, interface, or enum expected
+}
+^
+C:\Users\G\Desktop\BlueJ Projects\AdventureGame\Game.java:285: error: class, interface, or enum expected
+}
+^
+C:\Users\G\Desktop\BlueJ Projects\AdventureGame\Game.java:289: error: class, interface, or enum expected
+public void playerMove() {
+       ^
+C:\Users\G\Desktop\BlueJ Projects\AdventureGame\Game.java:291: error: class, interface, or enum expected
+int x = player.getX();
+^
+C:\Users\G\Desktop\BlueJ Projects\AdventureGame\Game.java:292: error: class, interface, or enum expected
+int y = player.getY();
+^
+C:\Users\G\Desktop\BlueJ Projects\AdventureGame\Game.java:294: error: class, interface, or enum expected
+if (direction.equals("w")) {
+^
+C:\Users\G\Desktop\BlueJ Projects\AdventureGame\Game.java:298: error: class, interface, or enum expected
+} else {
+^
+C:\Users\G\Desktop\BlueJ Projects\AdventureGame\Game.java:300: error: class, interface, or enum expected
+}
+^
+C:\Users\G\Desktop\BlueJ Projects\AdventureGame\Game.java:306: error: class, interface, or enum expected
+} else {
+^
+C:\Users\G\Desktop\BlueJ Projects\AdventureGame\Game.java:308: error: class, interface, or enum expected
+}
+^
+C:\Users\G\Desktop\BlueJ Projects\AdventureGame\Game.java:314: error: class, interface, or enum expected
+} else {
+^
+C:\Users\G\Desktop\BlueJ Projects\AdventureGame\Game.java:316: error: class, interface, or enum expected
+}
+^
+C:\Users\G\Desktop\BlueJ Projects\AdventureGame\Game.java:322: error: class, interface, or enum expected
+} else {
+^
+C:\Users\G\Desktop\BlueJ Projects\AdventureGame\Game.java:324: error: class, interface, or enum expected
+}
+^
+C:\Users\G\Desktop\BlueJ Projects\AdventureGame\Game.java:330: error: class, interface, or enum expected
+public void startEncounter(int x, int y) {
+       ^
+C:\Users\G\Desktop\BlueJ Projects\AdventureGame\Game.java:332: error: class, interface, or enum expected
+for (int i = 0; i < enemies.size(); i++) {
+^
+C:\Users\G\Desktop\BlueJ Projects\AdventureGame\Game.java:332: error: class, interface, or enum expected
+for (int i = 0; i < enemies.size(); i++) {
+                ^
+C:\Users\G\Desktop\BlueJ Projects\AdventureGame\Game.java:332: error: class, interface, or enum expected
+for (int i = 0; i < enemies.size(); i++) {
+                                    ^
+C:\Users\G\Desktop\BlueJ Projects\AdventureGame\Game.java:335: error: class, interface, or enum expected
+}
+^
+C:\Users\G\Desktop\BlueJ Projects\AdventureGame\Game.java:339: error: class, interface, or enum expected
+String choice = inputString("Do you want to engage " + e.getName() + "? (Y/N)");
+^
+C:\Users\G\Desktop\BlueJ Projects\AdventureGame\Game.java:341: error: class, interface, or enum expected
+if (choice.equalsIgnoreCase("Y")) {
+^
+C:\Users\G\Desktop\BlueJ Projects\AdventureGame\Game.java:343: error: class, interface, or enum expected
+}
+^
+C:\Users\G\Desktop\BlueJ Projects\AdventureGame\Game.java:347: error: class, interface, or enum expected
+public void fight(Enemy e) {
+       ^
+C:\Users\G\Desktop\BlueJ Projects\AdventureGame\Game.java:351: error: class, interface, or enum expected
+printLineBreak(50);
+^
+C:\Users\G\Desktop\BlueJ Projects\AdventureGame\Game.java:352: error: class, interface, or enum expected
+printHeader(e.getName()
+^
+C:\Users\G\Desktop\BlueJ Projects\AdventureGame\Game.java:355: error: class, interface, or enum expected
+printHeader(player.getName()
+^
+C:\Users\G\Desktop\BlueJ Projects\AdventureGame\Game.java:358: error: class, interface, or enum expected
+String choice = inputString("\n(1) Attack"
+^
+C:\Users\G\Desktop\BlueJ Projects\AdventureGame\Game.java:363: error: class, interface, or enum expected
+if (choice.equals("1")) {
+^
+C:\Users\G\Desktop\BlueJ Projects\AdventureGame\Game.java:368: error: class, interface, or enum expected
+int enemyAttack = e.attack();
+^
+C:\Users\G\Desktop\BlueJ Projects\AdventureGame\Game.java:371: error: class, interface, or enum expected
+boolean isCritical = playerAttack > 0 ? false : true;
+^
+C:\Users\G\Desktop\BlueJ Projects\AdventureGame\Game.java:374: error: class, interface, or enum expected
+playerAttack = isCritical ? playerAttack * -1 : playerAttack;
+^
+C:\Users\G\Desktop\BlueJ Projects\AdventureGame\Game.java:377: error: class, interface, or enum expected
+String normOrCrit = isCritical ? " (critical hit)." : ".";
+^
+C:\Users\G\Desktop\BlueJ Projects\AdventureGame\Game.java:380: error: class, interface, or enum expected
+e.setCurrentHp(e.getCurrentHp() - playerAttack);
+^
+C:\Users\G\Desktop\BlueJ Projects\AdventureGame\Game.java:383: error: class, interface, or enum expected
+System.out.println("\nYou attack " + e.getName() + " with your "
+^
+C:\Users\G\Desktop\BlueJ Projects\AdventureGame\Game.java:387: error: class, interface, or enum expected
+if (e.getCurrentHp() <= 0) {
+^
+C:\Users\G\Desktop\BlueJ Projects\AdventureGame\Game.java:389: error: class, interface, or enum expected
+enemies.remove(e);
+^
+C:\Users\G\Desktop\BlueJ Projects\AdventureGame\Game.java:390: error: class, interface, or enum expected
+String con = inputString("\nEnter any key to continue...");
+^
+C:\Users\G\Desktop\BlueJ Projects\AdventureGame\Game.java:391: error: class, interface, or enum expected
+break;
+^
+C:\Users\G\Desktop\BlueJ Projects\AdventureGame\Game.java:392: error: class, interface, or enum expected
+}
+^
+C:\Users\G\Desktop\BlueJ Projects\AdventureGame\Game.java:398: error: class, interface, or enum expected
+System.out.println("\n" + e.getName() + " attacks you with their " + e.getWeapon() + " dealing "
+^
+C:\Users\G\Desktop\BlueJ Projects\AdventureGame\Game.java:402: error: class, interface, or enum expected
+if (player.getCurrentHp() <= 0) {
+^
+C:\Users\G\Desktop\BlueJ Projects\AdventureGame\Game.java:404: error: class, interface, or enum expected
+System.out.println("You have been defeated by " + e.getName() + ".");
+^
+C:\Users\G\Desktop\BlueJ Projects\AdventureGame\Game.java:405: error: class, interface, or enum expected
+System.out.println("Goodbye.");
+^
+C:\Users\G\Desktop\BlueJ Projects\AdventureGame\Game.java:406: error: class, interface, or enum expected
+System.exit(0);
+^
+C:\Users\G\Desktop\BlueJ Projects\AdventureGame\Game.java:407: error: class, interface, or enum expected
+}
+^
+C:\Users\G\Desktop\BlueJ Projects\AdventureGame\Game.java:410: error: class, interface, or enum expected
+} // Use item 
+^
+C:\Users\G\Desktop\BlueJ Projects\AdventureGame\Game.java:416: error: class, interface, or enum expected
+System.out.println("");
+^
+C:\Users\G\Desktop\BlueJ Projects\AdventureGame\Game.java:417: error: class, interface, or enum expected
+for (int i = 0; i < bag.size(); i++) {
+^
+C:\Users\G\Desktop\BlueJ Projects\AdventureGame\Game.java:417: error: class, interface, or enum expected
+for (int i = 0; i < bag.size(); i++) {
+                ^
+C:\Users\G\Desktop\BlueJ Projects\AdventureGame\Game.java:417: error: class, interface, or enum expected
+for (int i = 0; i < bag.size(); i++) {
+                                ^
+100 errors

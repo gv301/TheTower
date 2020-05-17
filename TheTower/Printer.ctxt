@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Printer
+comment1.params=
+comment1.target=Printer()
+comment2.params=n
+comment2.target=java.lang.String\ printLineBreak(int)
+comment3.params=n
+comment3.target=java.lang.String\ printLine(int)
+comment4.params=message\ t\ b
+comment4.target=java.lang.String\ printHeader(java.lang.String,\ int,\ int)
+comment5.params=n
+comment5.target=java.lang.String\ printSpace(int)
+numComments=6

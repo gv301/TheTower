@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Assassin
+comment1.params=floorNumber
+comment1.target=Assassin(int)
+comment2.params=
+comment2.target=int\ attack()
+comment3.params=height\ width
+comment3.target=void\ move(int,\ int)
+comment4.params=floorNumber
+comment4.target=Weapon\ randomWeapon(int)
+comment5.params=
+comment5.target=java.lang.String\ getWeapon()
+numComments=6

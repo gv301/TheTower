@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=Shop
+comment1.params=floorNumber\ player
+comment1.target=Shop(int,\ Player)
+comment10.params=
+comment10.target=java.lang.String\ printStock()
+comment2.params=player
+comment2.target=void\ shopMenu(Player)
+comment3.params=player
+comment3.target=void\ buy(Player)
+comment4.params=player
+comment4.target=void\ sell(Player)
+comment5.params=i
+comment5.target=void\ addItem(Item)
+comment6.params=i
+comment6.target=void\ removeItem(Item)
+comment7.params=floorNumber
+comment7.target=void\ stockWeapons(int)
+comment8.params=floorNumber
+comment8.target=void\ stockPotions(int)
+comment9.params=
+comment9.target=java.util.ArrayList\ getStock()
+numComments=11

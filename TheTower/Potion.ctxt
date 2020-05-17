@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Potion
+comment1.params=name\ price\ quantity
+comment1.target=Potion(java.lang.String,\ int,\ int)
+comment2.params=
+comment2.target=java.lang.String[]\ getRarity()
+comment3.params=p
+comment3.target=void\ use(Player)
+numComments=4

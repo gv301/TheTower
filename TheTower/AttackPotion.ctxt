@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=AttackPotion
+comment1.params=rarity\ quantity
+comment1.target=AttackPotion(java.lang.String,\ int)
+comment2.params=p
+comment2.target=void\ use(Player)
+comment3.params=rarity
+comment3.target=int\ getBoostValue(java.lang.String)
+comment4.params=rarity
+comment4.target=int\ getPrice(java.lang.String)
+comment5.params=
+comment5.target=java.lang.String\ toString()
+numComments=6

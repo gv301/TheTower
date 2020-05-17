@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Brawler
+comment1.params=floorNumber
+comment1.target=Brawler(int)
+comment2.params=
+comment2.target=int\ attack()
+comment3.params=height\ width
+comment3.target=void\ move(int,\ int)
+numComments=4
