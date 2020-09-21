@@ -1,2 +1,2 @@
 # TheTower
-A basic adventure game I created using Java.
+An adventure game I created using Java.
